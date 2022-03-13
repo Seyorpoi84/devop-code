@@ -11,17 +11,17 @@ pipeline {
       steps {
         echo "test steps"
         sleep 10
-  }
-}
-  stage('work'){
+      }
+    }
+     stage('work'){
       steps {
         echo "work steps"
         sleep 10
-  }
-}
+      }
+    }
      stage('Deploy'){
       steps {
         echo "build steps"
         sleep 10
-  }
-}
+      }
+    }
